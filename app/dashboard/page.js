@@ -4,8 +4,8 @@ import Dashboard from '@/components/Dashboard';
 import Login from '@/components/Login';
 import { useAuth } from '@/context/Authcontext';
 
-const page = () => {
-  const {currentUser, loading} = useAuth()
+const Page = () => {
+  const {currentUser} = useAuth()
 
   const log = () => {
     if (currentUser) {
@@ -19,9 +19,9 @@ const page = () => {
 
   return (
     <>
-      {log()}
+      {()=>{log()}}
     </>
   )
 }
 
-export default page
+export default Page;

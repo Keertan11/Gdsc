@@ -13,7 +13,7 @@ const Landing = () => {
                 <h1 className={'text-5xl sm:text-text-6xl md:text-7xl text-center ' + Fugaz.className}><span className='textGradient'>Broodl</span> - track your <span className='textGradient'>progress.</span></h1>
                 <p className='text-lg sm:text-xl md:text-2xl text-center w-full mx-auto max-w-[700px] font-bold'>A perfect KPI (Key Performance Indicator) Dashboard</p>
             </div>
-            <div className={'text-2xl text-indigo-500 font-bold ' + Fugaz.className}>You're one step away </div>
+            <div className={'text-2xl text-indigo-500 font-bold ' + Fugaz.className}>You&apos;re one step away </div>
             <CallToAction />
             <DemoGraph />
         </div>
